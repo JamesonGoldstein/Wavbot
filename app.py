@@ -65,9 +65,9 @@ my_applio = loadThemes.load_theme() or "ParityError/Interstellar"
 
 # Define Gradio interface
 with gr.Blocks(
-    theme=my_applio, title="Applio", css="footer{display:none !important}"
+    theme=my_applio, title="WAVbot", css="footer{display:none !important}"
 ) as Applio:
-    gr.Markdown("# Applio")
+    gr.Markdown("# WAVbot")
     gr.Markdown(
         i18n(
             "A simple, high-quality voice conversion tool focused on ease of use and performance."
@@ -108,7 +108,7 @@ with gr.Blocks(
     gr.Markdown(
         """
     <div style="text-align: center; font-size: 0.9em; text-color: a3a3a3;">
-    By using Applio, you agree to comply with ethical and legal standards, respect intellectual property and privacy rights, avoid harmful or prohibited uses, and accept full responsibility for any outcomes, while Applio disclaims liability and reserves the right to amend these terms.
+    By using WAVbot, you agree to comply with ethical and legal standards, respect intellectual property and privacy rights, avoid harmful or prohibited uses, and accept full responsibility for any outcomes, while Applio disclaims liability and reserves the right to amend these terms.
     </div>
     """
     )
